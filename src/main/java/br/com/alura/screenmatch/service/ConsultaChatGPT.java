@@ -4,12 +4,11 @@
 //import com.theokanning.openai.service.OpenAiService;
 //
 //public class ConsultaChatGPT {
+//    public static String obterTraducao(String texto) {
+//        OpenAiService service = new OpenAiService(System.getenv("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"));
 //
-//        public static String obterTraducao(String texto) {
-//            OpenAiService service = new OpenAiService(System.getenv("OPENAI_APIKEY"));
 //
-//
-//            CompletionRequest requisicao = CompletionRequest.builder()
+//        CompletionRequest requisicao = CompletionRequest.builder()
 //                .model("text-davinci-003")
 //                .prompt("traduza para o português o texto: " + texto)
 //                .maxTokens(1000)
